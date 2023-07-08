@@ -19,6 +19,7 @@ font-size: 45px;
 /* font-style: normal; */
 font-weight: 800;
 /* line-height: normal; */
+margin: 0 200px;
 }
 nav >ul{
     display: flex;
@@ -43,4 +44,16 @@ nav a{
     font-weight: 700;
     color: white;
     padding: 15px 35px;
+}
+.header{
+    background-color: background: #FFF8F3;;
+    /* display */
+}
+.banner{
+    padding: 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .p-pic{
+    width: 500px;
 }
