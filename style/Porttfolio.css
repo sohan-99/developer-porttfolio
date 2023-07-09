@@ -161,9 +161,42 @@ font-weight: 400;
 }
 .resume-colume-title{
     color: #474747;
-/* font-family: Open Sans; */
+
 font-size: 25px;
+
+font-weight: 700;
+
+}
+.resume-conteiner{
+    display: flex;
+}
+.resume-item-title{
+    color:#757575;
+/* font-family: Open Sans; */
+font-size: 20px;
 /* font-style: normal; */
 font-weight: 700;
 /* line-height: normal; */
+margin-bottom: 10px;
+}
+.resume-conteiner hr{
+    margin: 10px;
+    /* width: 558px;
+height: 1px; */
+}
+.resume-conteiner{
+    margin: 30px;
+}
+
+.resume-item-ins{
+    color: #757575;
+    margin-top: 0px;
+    margin-bottom: 20px;
+} 
+ .resume-item-des{
+color: #757575;
+}
+.download-cv{
+text-align: center;
+margin-top: 50px;
 }
