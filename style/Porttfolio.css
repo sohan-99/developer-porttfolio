@@ -40,16 +40,19 @@ nav a{
     background: #FD6E0A;
     border: 0;
     font-size: 20px;
-    font-family: normal;
+    /* font-family: normal; */
     font-weight: 700;
     color: white;
     padding: 15px 35px;
 }
 .header{
+    background-image: url('../images/header_bg.png');
+    /* , url('../images/developer.png') */
     background-repeat: no-repeat;
     background-position: bottom right;
+    /* background-position: bottom left; */
+
     background-color: background: #FFF8F3;
-    background-image: url('../images/header_bg.png');
     
 }
 .banner{
@@ -199,4 +202,40 @@ color: #757575;
 .download-cv{
 text-align: center;
 margin-top: 50px;
+}
+/* footre{
+    /* display: flex; */
+.fot{
+    margin-top: 30px;
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 110px;
+    gap: 100px
+    ;
+}
+.footer-colume{
+    width: 50%;
+}
+.social-medeialink a{
+margin-right: 25px;
+}
+/* .contact input, textarea{
+display: flex;
+margin-bottom: 25px;
+padding: 18px 35px;
+color: #757575;
+border-radius: 5px;
+border: 0;
+}
+.contact input */
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 25px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: none;
+  width: 100%;
 }
